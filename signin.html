@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
+        </div>
+        <div class="form-container">
+            <form id="signInForm">
+                <h1>Sign-In</h1>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+                <button type="submit">Continue</button>
+                <div class="divider"></div>
+                <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+                <p>Need help? <a href="#">Forgot your password?</a></p>
+            </form>
+        </div>
+        <div class="new-to-amazon">
+            <h2>New to Amazon?</h2>
+            <button onclick="location.href='register.html'">Create your Amazon account</button>
+        </div>
+    </div>
+    <script src="signin.js"></script>
+</body>
+</html>

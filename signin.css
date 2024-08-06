@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+}
+
+form h1 {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e5b134;
+}
+
+.divider {
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+.new-to-amazon {
+    margin-top: 20px;
+}
+
+.new-to-amazon h2 {
+    margin-bottom: 10px;
+}
+
+.new-to-amazon button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.new-to-amazon button:hover {
+    background-color: #d7d9dc;
+}
